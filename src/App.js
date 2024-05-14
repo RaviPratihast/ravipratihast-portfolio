@@ -1,7 +1,14 @@
 import React from "react";
+import Navbar from "./component/Navbar/Navbar";
+import Hero from "./component/Hero-section/Hero";
 
 function App() {
-  return <h1>HELLO</h1>;
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
