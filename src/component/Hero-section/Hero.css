@@ -1,0 +1,76 @@
+/* Hero section styles */
+.hero-section {
+  /* background-color: #f0f0f0; */
+  padding: 80px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  max-width: 600px; /* Adjust width as needed */
+  margin: 0 auto;
+}
+
+.profile-image {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+  border-radius: 50%; /* Create circular shape */
+  margin-bottom: 30px; /* Adjust spacing as needed */
+}
+
+h1 {
+  font-size: 32px; /* Adjust font size as needed */
+  /* margin-bottom: 20px; Adjust spacing as needed */
+}
+h1 > span {
+  background: linear-gradient(276deg, #b923e1 0.36%, #da7c25 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 18px;
+  color: white; /* Adjust color as needed */
+}
+
+/* Action button styles */
+.action-buttons {
+  margin-top: 20px; /* Adjust spacing as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.action-btn {
+  /* background-color: #4caf50; */
+  font: inherit;
+  padding: 10px 20px;
+  /* border: none; */
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Adjust spacing between buttons */
+  /* background: linear-gradient(276deg, #da7c25 0.36%, #b923e1 102.06%); */
+}
+
+.action-connect {
+  background: linear-gradient(276deg, #da7c25 0.36%, #b923e1 102.06%);
+  font: inherit;
+}
+.action-connect:hover {
+  border: 2px solid white;
+}
+
+.action-resume {
+  background: black;
+  color: white;
+  /* border: none; */
+}
+.action-resume:hover {
+  border: 2px solid #a855f7;
+}
