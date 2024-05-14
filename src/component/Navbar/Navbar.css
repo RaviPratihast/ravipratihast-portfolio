@@ -1,0 +1,45 @@
+.navbar {
+  /* background-color: #333; */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+.contact-btn {
+  /* background-color: #4caf50; */
+  background: linear-gradient(276deg, #da7c25 0.36%, #b923e1 102.06%);
+  border-radius: 5px;
+  /* transition: 0.5s; */
+}
+
+.contact-btn:hover {
+  background: linear-gradient(276deg, #b923e1 0.36%, #da7c25 102.06%);
+  /* transform: scale(1.05); */
+}
