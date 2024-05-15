@@ -69,8 +69,8 @@ p {
 .action-resume {
   background: black;
   color: white;
-  /* border: none; */
+  border: 1px solid white;
 }
 .action-resume:hover {
-  border: 2px solid #a855f7;
+  border: 1px solid #a855f7;
 }
